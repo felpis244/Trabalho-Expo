@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #9440;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  
+  button {
+    padding: 10px 10px;
+    background-color: #ff0000;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1em;
+  }
+  
+  button:hover {
+    background-color: #466ba3;
+  }
+  #amiiboContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+  }
+  #cartasContainer .carta{
+    margin: 5px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    float: left;
+  }
+
+  body{
+    background-image: url(../img/H2x1_Amiibo_main_image1600w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
